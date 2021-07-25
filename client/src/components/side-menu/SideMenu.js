@@ -8,6 +8,8 @@ import { makeStyles } from "@material-ui/core";
 const useStyles = makeStyles({
   menuButton: {
     color: "#ffffff",
+    margin: "0px 10px 0px 50px",
+    fontSize: 40,
   },
 });
 

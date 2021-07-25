@@ -1,15 +1,24 @@
-#header {
+#header-container {
   height: 10vh;
   display: flex;
   align-items: center;
   background-color: #000000;
 }
 
-#nav-container {
+#header-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+#header-centre,
+#header-right {
+  flex: 1;
 }
 
 #nav {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .nav-list-item {

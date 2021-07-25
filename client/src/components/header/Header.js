@@ -7,16 +7,20 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div id="header">
-      <SideMenu />
-      <Logo />
+    <div id="header-container">
+      <div id="header-left">
+        <SideMenu />
+        <Logo />
+      </div>
 
-      <Search />
+      <div id="header-centre">
+        <Search />
+      </div>
 
-      <div id="nav-container">
+      <div id="header-right">
         <ul id="nav">
           <li className="nav-list-item small-text">
-            <Link to="/watchlist">Watchlist</Link>
+            <Link to="/watchlist">Watchlist (0)</Link>
           </li>
           <li className="nav-list-item small-text">
             <Link to="/sign-in">Sign-in</Link>
