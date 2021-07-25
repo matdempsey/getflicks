@@ -3,6 +3,7 @@ import { useState } from "react";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import Divider from "@material-ui/core/Divider";
 import Collapse from "@material-ui/core/Collapse";
 import ExpandLess from "@material-ui/icons/ExpandLess";
 import ExpandMore from "@material-ui/icons/ExpandMore";
@@ -18,6 +19,13 @@ const MenuList = () => {
   return (
     <div>
       <List>
+        <ListItem button onClick={() => handleListItemClick("/sign-in")}>
+          <ListItemText primary="Sign-in" />
+        </ListItem>
+        <ListItem button onClick={() => handleListItemClick("/watchlist")}>
+          <ListItemText primary="Watchlist (0)" />
+        </ListItem>
+        <Divider />
         <ListItem button onClick={() => handleListItemClick("/")}>
           <ListItemText primary="Home" />
         </ListItem>
