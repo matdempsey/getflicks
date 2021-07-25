@@ -1,5 +1,7 @@
 # GETFLICKS
 
+A Netflix inspired web app. 
+
 Built using: 
 - React
 - Material-UI
