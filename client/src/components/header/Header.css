@@ -1,0 +1,21 @@
+#header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+}
+
+#nav-container {
+}
+
+#nav {
+  display: flex;
+}
+
+.nav-list-item {
+}
+
+.nav-list-item > a {
+  color: #ffffff;
+  padding: 10px;
+}
